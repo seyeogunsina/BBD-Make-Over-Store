@@ -1,0 +1,23 @@
+{
+  "name": "BBD-Make-Over-Store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d UI"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seyeogunsina/BBD-Make-Over-Store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://seyeogunsina.github.io/BBD-Make-Over-Store/issues"
+  },
+  "homepage": "https://github.com/seyeogunsina/BBD-Make-Over-Store",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

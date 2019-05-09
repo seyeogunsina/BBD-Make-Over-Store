@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style_signup.css"/>
+    </head>
+    <body>
+        <div class="imgcontainer">
+            <img src="logo.jpg" alt="Avatar" class="avatar">
+        </div>
+        <div id="signupcontainer">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <form>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required/>
+                <label for="lastname">Last Name:</label><br/>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required/>
+                <label for="storename">Store Name:</label>
+                <input type="text" id="storename" name="storename" placeholder="Enter Store Name"/>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email Address" required/>
+                <label for="username">Username:</label>
+                <input type="text" id="username" type="username" placeholder="Enter Username" required/>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required/>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="password" name="password" placeholder="Confirm Password" required/>
+                <div class="lower">
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                    <button type="button" class="cancelbtn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

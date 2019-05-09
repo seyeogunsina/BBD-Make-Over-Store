@@ -1,6 +1,6 @@
 * {box-sizing: border-box}
 h1, p{
-  margin-left: 4%;
+  margin-left: 5%;
 }
 html, body {
   width: 100%;
@@ -12,8 +12,8 @@ html, body {
 }
 #signupcontainer {
   position: relative;
-  width: 940px;
-  height: 500px;
+  width: 540px;
+  height: 700px;
   top: 0%;
   left: 0%;
   margin: 0 auto;
@@ -33,6 +33,21 @@ img.avatar {
   border: 1px solid #ccc;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
 }
+input[type=text], input[type=password], input[type=email] {
+  color: #777;
+  padding-left: 10px;
+  margin: 10px;
+  margin-top: 0px;
+  margin-left: 5%;
+  width: 90%;
+  height: 35px;
+  border: 1px solid #c7d0d2;
+  border-radius: 2px;
+  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4) 0 0 0 5px #f5f7f8;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
+}
 form {
   margin: 0 auto;
   margin-top: 20px;
@@ -40,9 +55,10 @@ form {
 label {
   color: #555;
   display: inline-block;
-  margin-left: 25px;
-  padding-top: 10px;
+  margin-left: 5%;
+  padding-top: 0px;
   font-size: 14px;
+  font-weight: bold;
 }
 p a {
   font-size: 11px;
@@ -62,108 +78,29 @@ input {
   font-size: 12px;
   outline: none;
 }
-#password {
-  color: #777;
-  padding-left: 10px;
-  margin: 10px;
-  margin-top: 20px;
-  margin-left: 39px;
-  width: 290px;
-  height: 35px;
-  border: 1px solid #c7d0d2;
-  border-radius: 2px;
-  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4) 0 0 0 5px #f5f7f8;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  transition: all .4s ease;
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
 }
-#firstname, #lastname {
-  color: #777;
-  padding-left: 10px;
-  margin: 10px;
-  margin-top: 5px;
-  margin-left: 32px;
-  width: 44%;
-  height: 35px;
-  border: 1px solid #c7d0d2;
-  border-radius: 2px;
-  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4) 0 0 0 5px #f5f7f8;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  transition: all .4s ease;
-  display: inline-block;
-}
-#username {
-  color: #777;
-  padding-left: 10px;
-  margin: 10px;
-  margin-top: 20px;
-  margin-left: 32px;
-  width: 303px;
-  height: 35px;
-  border: 1px solid #c7d0d2;
-  border-radius: 2px;
-  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4) 0 0 0 5px #f5f7f8;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  transition: all .4s ease;
-}
-#email {
-  color: #777;
-  padding-left: 10px;
-  margin: 10px;
-  margin-top: 20px;
-  margin-left: 10px;
-  width: 300px;
-  height: 35px;
-  border: 1px solid #c7d0d2;
-  border-radius: 2px;
-  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4) 0 0 0 5px #f5f7f8;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  transition: all .4s ease;
-}
-#storename {
-  color: #777;
-  padding-left: 10px;
-  margin: 10px;
-  margin-top: 20px;
-  margin-left: 25px;
-  width: 759px;
-  height: 35px;
-  border: 1px solid #c7d0d2;
-  border-radius: 2px;
-  box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4) 0 0 0 5px #f5f7f8;
-  -webkit-transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  transition: all .4s ease;
-}
-input[type="text"]:hover, input[type="password"]:hover {
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover{
   border: 1px solid #b6bfc0;
   box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7) 0 0 0 5px #f5f7f8;
 }
-input[type="text"]:focus, input[type="password"]:focus {
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
   border: 1px solid #a8c9e4;
   box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4) 0 0 0 5px #e6f2f9;
 }
-#lower {
+.lower {
   background: #ecf2f5;
   width: 100%;
   height: 69px;
   margin-top: 20px;
 }
-input[type=checkbox] {
-  margin-left: 20px;
-  margin-top: 30px;
-}
-.check {
-  margin-left: 3px;
-}
-input[type=submit] {
+button {
   float: right;
-  margin-right: 20px;
+  margin-right: 5%;
   margin-top: 20px;
-  width: 80px;
+  width: 8%;
   height: 30px;
   font-size: 14px;
   font-weight: bold;
@@ -176,14 +113,43 @@ input[type=submit] {
   border: 1px solid #66add6;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
   cursor: pointer;
+  /*width: 100%;*/
+  opacity: 0.9;
 }
-input[type=submit]:hover {
+button:hover {
+  opacity:1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#b6e2ff), to(#6ec2e8));
   background-image: -moz-linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
   background-image: linear-gradient(top left 90deg, #b6e2ff 0%, #6ec2e8 100%);
 }
-input[type=submit]:active {
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: right;
+  width: 15%;
+}
+input[type=checkbox] {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.check {
+  margin-left: 3px;
+}
+
+button:active {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#6ec2e8), to(#b6e2ff));
   background-image: -moz-linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
   background-image: linear-gradient(top left 90deg, #6ec2e8 0%, #b6e2ff 100%);
 }
+/* Clear floats */
+.lower::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }

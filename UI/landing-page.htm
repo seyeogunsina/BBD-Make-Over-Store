@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="landing-page.css"/>
+    <base href="https://seyeogunsina.github.io/BBD-Make-Over-Store/" >
+    <link rel="shortcut icon" href="images/logo/favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/basic.css" type="text/css" />
+    <link rel="stylesheet" href="css/alertify.min.css" type="text/css" />
+    <link href="prettyPhoto/prettyPhoto.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" type="text/css" href="css/counter.css" />
+    <style>
+        .location-icon {
+            display: inline-block;
+        }
+        .arrow .ui-tooltip-content {
+            color: #fff;
+        }
+        .ui-tooltip.arrow {
+            padding: 4px 8px;
+        }
+        .ui-widget-content.arrow {
+            background: #484848;
+        }
+        img.spin {
+
+            max-width: 30px;
+            height: auto;
+            opacity:0;
+            -moz-animation: spin  1.4s  linear  0.5s  infinite;
+            -webkit-animation: spin  1.4s  linear  0.5s  infinite;
+            -o-animation: spin  1.4s  linear  0.5s  infinite;
+            animation: spin  1.4s  linear  0.5s  infinite;
+            -moz-transition:ease-in-out 0.3s;
+            -webkit-transition:ease-in-out 0.3s;
+            -o-transition:ease-in-out 0.3s;
+            transition:ease-in-out 0.3s;
+
+        }
+        .log-in.right:hover img.spin{ opacity:1}
+
+        @-webkit-keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+        @-moz-keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+        @-o-keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+        @keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+    </style>
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive/buymandu.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <section class="home-listing">
+        <div class="container">
+            <div class="search-list">
+                <h2 class="home-listing-title left">Listings</h2>
+                <div class="search_section">
+                    <div class="search left">
+                        <p class="search-text res-srch-text left">Search products</p>
+                    </div>
+                    <form class="forinner" action="https://seyeogunsina.github.io/BBD-Make-Over-Store/" method="POST" id="search">
+                        <input type="hidden" name="adv-srch" value="yes"/>
+                        <div class="search1 left">
+                            <input type="text" id="searchP" name="search" placeholder="e.g. Mary Kay" value="" class="left input-gap res-srch-inp">
+                            <input type="submit" value="" class="left res-srch-btn"/>
+                            <div class="clear"></div>
+                        </div>
+                        <a href="#" class="search-text1 left res-srch-adv">Advanced search</a>
+                </div>
+                <div class="clear"></div> 
+
+                <div style="clear:both;"></div>
+                    <div class="cat-list-wrp">
+                        <div class="cat-list">
+                            <ul>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/" class="cat-list-item cat-link">All</a><span class="badge">138</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/foundation" class="cat-list-item cat-link">Foundations</a><span class="badge">39</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder" class="cat-list-item cat-link">Powders</a><span class="badge">15</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/eye-liner" class="cat-list-item cat-link">Eye Liners</a><span class="badge">12</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/eye-shadow" class="cat-list-item cat-link">Eye Shadows</a><span class="badge">11</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/shoes" class="cat-list-item cat-link">Shoes</a><span class="badge">9</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/bags" class="cat-list-item cat-link">Bags</a><span class="badge">8</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/watches-and-accessories" class="cat-list-item cat-link">Watches & Accessories</a><span class="badge">8</span></li>
+                                <li><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/clothes" class="cat-list-item cat-link">Clothes</a><span class="badge">4</span></li>    
+                                <a href="#" id="see-more" class="see-more">(View more)</a> 
+                            </ul>    
+                        </div>                        
+                    </div>
+                    <div class="home-listing-wrp home-list-box">
+                        <div class="searching-bar">
+                            <form action="" method="get" class="example_form left">
+                                <div class="list-check left">
+                                    <p class="left list-check-title">Category</p>
+                                    <select name="category" id="cat-select" class="default cat-select" tabindex="2">
+                                        <option value="">Any</option>
+                                        <option value="foundation">Foundations</option>
+                                        <option value="powders">Powders</option>
+                                        <option value="eye-liners">Eye Liners</option>
+                                        <option value="eye-shadow">Eye Shadows</option>
+                                        <option value="shoes">Shoes</option>
+                                        <option value="bags">Bags</option>
+                                        <option value="watches-and-accessories">Watches and Accessories</option>
+                                    </select>
+                                    <div class="clear"></div>
+                                </div>
+                            </form>
+                            <form action="" method="post" id="sort" class="example_form left">
+                            <div class="list-check left">
+                                <p class="left list-check-title">Seller type</p>
+                                <select name="seller" class="default" tabindex="2">
+                                    <option value="">ALL</option>
+                                    <option value="1">Individual</option>
+                                    <option value="2">Sales Agent</option>
+                                    <option value="3">Company</option>
+                                </select>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="list-check left">
+                                <p class="left list-check-title">Sort by</p>
+                                <select name="sort_by" class="default" style="width:160px">
+                                    <option value="">Most Relevant</option>
+                                    <option value="posted_desc">Date Posted (Latest)</option>
+                                    <option value="posted_asc">Date Posted (Oldest)</option>
+                                    <option value="price_desc">Price (Highest)</option>
+                                    <option value="price_asc">Price (Lowest)</option>
+                                </select>
+                                <div class="clear"></div>
+                            </div>
+                            </form>
+                            <div id="counter">
+                                <div class="total_listing">Total Listing &nbsp;</div>
+                                <div class="counter-hold" id="counter-hold"></div>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="clear"></div>
+                        </div>
+                            
+                        <div class="home-listing-box ">
+                            <div class="listing-img new-listing-img left">
+                                <div class="listing-item-img new-listing-item-img">4</div>
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">
+                                    <div class="prod-thumb" style="background-image: url('get_thumb.php?img=uploads/20201905050710.jpeg&size=275')" data-adaptive-background='1' data-ab-css-background='1'></div>
+                                </a>
+                            </div>
+                            <div class="listing-details-left left">
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">Mary Kay</a>
+                                <h3 class="listing-item-price">₦ 10,000</h3>
+                                <div class="sub-wrp">
+                                    <div class="list-text left">
+                                        <p class="listing-item-seller">Views: 14</p>
+                                    </div>
+                                    <div class="seller-img left"><img src="users/profile_pic/53201959050409_0426373151.jpeg" /></div>
+                                    <div class="location-wrp left">
+                                        <div class="location-icon"><a href="./location/lekki">Lekki</a></div>
+                                        <br/>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                    <div class="company-label">
+                                        <div class="seller_more_infor"><span class="green-line-tag"></span><strong>Individual:</strong>Cassy Jones</div>
+                                        <div class="seller_verified_badge"></div>
+                                        <div class="seller_verified_badge_email"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listing-detail-right left">
+                                <h3 class="listing-detail-right-title">Listing details</h3>
+                                <p class="listing-item-right"> <span class="widthfix">Date posted:</span><span>10th May 2019</span></p>
+                                <p class="listing-item-right"><span class="widthfix">Category:</span><span><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/power">Powders</a></span></p>
+                                <p class="listing-item-right"><span class="widthfix">Listing ID:</span><span>144</span></p>
+                            </div>
+                            <div class="feature-ribbin right"><img width="" height="" alt="" src="images/boost-up.png"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="home-listing-box ">
+                            <div class="listing-img new-listing-img left">
+                                <div class="listing-item-img new-listing-item-img">4</div>
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">
+                                    <div class="prod-thumb" style="background-image: url('get_thumb.php?img=uploads/20201905050710.jpeg&size=275')" data-adaptive-background='1' data-ab-css-background='1'></div>
+                                </a>
+                            </div>
+                            <div class="listing-details-left left">
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">Mary Kay</a>
+                                <h3 class="listing-item-price">₦ 10,000</h3>
+                                <div class="sub-wrp">
+                                    <div class="list-text left">
+                                        <p class="listing-item-seller">Views: 14</p>
+                                    </div>
+                                    <div class="seller-img left"><img src="users/profile_pic/53201959050409_0426373151.jpeg" /></div>
+                                    <div class="location-wrp left">
+                                        <div class="location-icon"><a href="./location/lekki">Lekki</a></div>
+                                        <br/>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                    <div class="company-label">
+                                        <div class="seller_more_infor"><span class="green-line-tag"></span><strong>Individual:</strong>Cassy Jones</div>
+                                        <div class="seller_verified_badge"></div>
+                                        <div class="seller_verified_badge_email"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listing-detail-right left">
+                                <h3 class="listing-detail-right-title">Listing details</h3>
+                                <p class="listing-item-right"> <span class="widthfix">Date posted:</span><span>10th May 2019</span></p>
+                                <p class="listing-item-right"><span class="widthfix">Category:</span><span><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/power">Powders</a></span></p>
+                                <p class="listing-item-right"><span class="widthfix">Listing ID:</span><span>144</span></p>
+                            </div>
+                            <div class="feature-ribbin right"><img width="" height="" alt="" src="images/boost-up.png"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="home-listing-box ">
+                            <div class="listing-img new-listing-img left">
+                                <div class="listing-item-img new-listing-item-img">4</div>
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">
+                                    <div class="prod-thumb" style="background-image: url('get_thumb.php?img=uploads/20201905050710.jpeg&size=275')" data-adaptive-background='1' data-ab-css-background='1'></div>
+                                </a>
+                            </div>
+                            <div class="listing-details-left left">
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">Mary Kay</a>
+                                <h3 class="listing-item-price">₦ 10,000</h3>
+                                <div class="sub-wrp">
+                                    <div class="list-text left">
+                                        <p class="listing-item-seller">Views: 14</p>
+                                    </div>
+                                    <div class="seller-img left"><img src="users/profile_pic/53201959050409_0426373151.jpeg" /></div>
+                                    <div class="location-wrp left">
+                                        <div class="location-icon"><a href="./location/lekki">Lekki</a></div>
+                                        <br/>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                    <div class="company-label">
+                                        <div class="seller_more_infor"><span class="green-line-tag"></span><strong>Individual:</strong>Cassy Jones</div>
+                                        <div class="seller_verified_badge"></div>
+                                        <div class="seller_verified_badge_email"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listing-detail-right left">
+                                <h3 class="listing-detail-right-title">Listing details</h3>
+                                <p class="listing-item-right"> <span class="widthfix">Date posted:</span><span>10th May 2019</span></p>
+                                <p class="listing-item-right"><span class="widthfix">Category:</span><span><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/power">Powders</a></span></p>
+                                <p class="listing-item-right"><span class="widthfix">Listing ID:</span><span>144</span></p>
+                            </div>
+                            <div class="feature-ribbin right"><img width="" height="" alt="" src="images/boost-up.png"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="home-listing-box ">
+                            <div class="listing-img new-listing-img left">
+                                <div class="listing-item-img new-listing-item-img">4</div>
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">
+                                    <div class="prod-thumb" style="background-image: url('get_thumb.php?img=uploads/20201905050710.jpeg&size=275')" data-adaptive-background='1' data-ab-css-background='1'></div>
+                                </a>
+                            </div>
+                            <div class="listing-details-left left">
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">Mary Kay</a>
+                                <h3 class="listing-item-price">₦ 10,000</h3>
+                                <div class="sub-wrp">
+                                    <div class="list-text left">
+                                        <p class="listing-item-seller">Views: 14</p>
+                                    </div>
+                                    <div class="seller-img left"><img src="users/profile_pic/53201959050409_0426373151.jpeg" /></div>
+                                    <div class="location-wrp left">
+                                        <div class="location-icon"><a href="./location/lekki">Lekki</a></div>
+                                        <br/>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                    <div class="company-label">
+                                        <div class="seller_more_infor"><span class="green-line-tag"></span><strong>Individual:</strong>Cassy Jones</div>
+                                        <div class="seller_verified_badge"></div>
+                                        <div class="seller_verified_badge_email"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listing-detail-right left">
+                                <h3 class="listing-detail-right-title">Listing details</h3>
+                                <p class="listing-item-right"> <span class="widthfix">Date posted:</span><span>10th May 2019</span></p>
+                                <p class="listing-item-right"><span class="widthfix">Category:</span><span><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/power">Powders</a></span></p>
+                                <p class="listing-item-right"><span class="widthfix">Listing ID:</span><span>144</span></p>
+                            </div>
+                            <div class="feature-ribbin right"><img width="" height="" alt="" src="images/boost-up.png"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="home-listing-box ">
+                            <div class="listing-img new-listing-img left">
+                                <div class="listing-item-img new-listing-item-img">4</div>
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">
+                                    <div class="prod-thumb" style="background-image: url('get_thumb.php?img=uploads/20201905050710.jpeg&size=275')" data-adaptive-background='1' data-ab-css-background='1'></div>
+                                </a>
+                            </div>
+                            <div class="listing-details-left left">
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">Mary Kay</a>
+                                <h3 class="listing-item-price">₦ 10,000</h3>
+                                <div class="sub-wrp">
+                                    <div class="list-text left">
+                                        <p class="listing-item-seller">Views: 14</p>
+                                    </div>
+                                    <div class="seller-img left"><img src="users/profile_pic/53201959050409_0426373151.jpeg" /></div>
+                                    <div class="location-wrp left">
+                                        <div class="location-icon"><a href="./location/lekki">Lekki</a></div>
+                                        <br/>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                    <div class="company-label">
+                                        <div class="seller_more_infor"><span class="green-line-tag"></span><strong>Individual:</strong>Cassy Jones</div>
+                                        <div class="seller_verified_badge"></div>
+                                        <div class="seller_verified_badge_email"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listing-detail-right left">
+                                <h3 class="listing-detail-right-title">Listing details</h3>
+                                <p class="listing-item-right"> <span class="widthfix">Date posted:</span><span>10th May 2019</span></p>
+                                <p class="listing-item-right"><span class="widthfix">Category:</span><span><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/power">Powders</a></span></p>
+                                <p class="listing-item-right"><span class="widthfix">Listing ID:</span><span>144</span></p>
+                            </div>
+                            <div class="feature-ribbin right"><img width="" height="" alt="" src="images/boost-up.png"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="home-listing-box ">
+                            <div class="listing-img new-listing-img left">
+                                <div class="listing-item-img new-listing-item-img">4</div>
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">
+                                    <div class="prod-thumb" style="background-image: url('get_thumb.php?img=uploads/20201905050710.jpeg&size=275')" data-adaptive-background='1' data-ab-css-background='1'></div>
+                                </a>
+                            </div>
+                            <div class="listing-details-left left">
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">Mary Kay</a>
+                                <h3 class="listing-item-price">₦ 10,000</h3>
+                                <div class="sub-wrp">
+                                    <div class="list-text left">
+                                        <p class="listing-item-seller">Views: 14</p>
+                                    </div>
+                                    <div class="seller-img left"><img src="users/profile_pic/53201959050409_0426373151.jpeg" /></div>
+                                    <div class="location-wrp left">
+                                        <div class="location-icon"><a href="./location/lekki">Lekki</a></div>
+                                        <br/>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                    <div class="company-label">
+                                        <div class="seller_more_infor"><span class="green-line-tag"></span><strong>Individual:</strong>Cassy Jones</div>
+                                        <div class="seller_verified_badge"></div>
+                                        <div class="seller_verified_badge_email"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listing-detail-right left">
+                                <h3 class="listing-detail-right-title">Listing details</h3>
+                                <p class="listing-item-right"> <span class="widthfix">Date posted:</span><span>10th May 2019</span></p>
+                                <p class="listing-item-right"><span class="widthfix">Category:</span><span><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/power">Powders</a></span></p>
+                                <p class="listing-item-right"><span class="widthfix">Listing ID:</span><span>144</span></p>
+                            </div>
+                            <div class="feature-ribbin right"><img width="" height="" alt="" src="images/boost-up.png"></div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="home-listing-box ">
+                            <div class="listing-img new-listing-img left">
+                                <div class="listing-item-img new-listing-item-img">4</div>
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">
+                                    <div class="prod-thumb" style="background-image: url('get_thumb.php?img=uploads/20201905050710.jpeg&size=275')" data-adaptive-background='1' data-ab-css-background='1'></div>
+                                </a>
+                            </div>
+                            <div class="listing-details-left left">
+                                <a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/powder/Mary-Kay-20201905050710" class="listing-item-title">Mary Kay</a>
+                                <h3 class="listing-item-price">₦ 10,000</h3>
+                                <div class="sub-wrp">
+                                    <div class="list-text left">
+                                        <p class="listing-item-seller">Views: 14</p>
+                                    </div>
+                                    <div class="seller-img left"><img src="users/profile_pic/53201959050409_0426373151.jpeg" /></div>
+                                    <div class="location-wrp left">
+                                        <div class="location-icon"><a href="./location/lekki">Lekki</a></div>
+                                        <br/>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                    <div class="company-label">
+                                        <div class="seller_more_infor"><span class="green-line-tag"></span><strong>Individual:</strong>Cassy Jones</div>
+                                        <div class="seller_verified_badge"></div>
+                                        <div class="seller_verified_badge_email"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="listing-detail-right left">
+                                <h3 class="listing-detail-right-title">Listing details</h3>
+                                <p class="listing-item-right"> <span class="widthfix">Date posted:</span><span>10th May 2019</span></p>
+                                <p class="listing-item-right"><span class="widthfix">Category:</span><span><a href="https://seyeogunsina.github.io/BBD-Make-Over-Store/category/power">Powders</a></span></p>
+                                <p class="listing-item-right"><span class="widthfix">Listing ID:</span><span>144</span></p>
+                            </div>
+                            <div class="feature-ribbin right"><img width="" height="" alt="" src="images/boost-up.png"></div>
+                            <div class="clear"></div>
+                        </div>
+                </select>
+</div>
+</div>
+</div>
+</div>
+</body>

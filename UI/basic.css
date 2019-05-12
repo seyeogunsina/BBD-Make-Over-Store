@@ -1,0 +1,291 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: lato, sans-serif;
+    color: #444;
+    font-size: 75%;
+}
+
+a {
+    color: #27D;
+    text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+    text-decoration: underline;
+}
+
+p, li {
+    line-height: 1.8em;
+}
+
+h1, h2 {
+    font-family: lato, sans-serif;
+    margin: 0 0 10px 0;
+}
+
+h1 {
+    padding: 0;
+    font-size: 3em;
+    color: #333;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+pre {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    overflow-x: auto;
+}
+
+div#page {
+    width: 900px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: left;
+    border-color: #ddd;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+
+div#container {
+    padding: 20px;
+}
+
+div#ads {
+    clear: both;
+    padding: 12px 0 12px 66px;
+}
+
+div#footer {
+    clear: both;
+    color: #777;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+    text-align: center;
+}
+
+.company-label > div[class*="seller_verified_badge"] {
+    display: block;
+    float: none;
+    position: relative;
+    top: -29px;
+    right: -184px;
+    width: 147px;
+}
+
+.company-label > div.seller_verified_badge_email {
+    right: -208px;
+}
+
+.company-label > div.seller_verified_badge_phone {
+    right: -215px;
+}
+
+.company-label > div.seller_verified_badge_address,
+.company-label > div.seller_verified_badge_id {
+    right:-207px;
+}
+
+.paymentpartner {
+    background-position: left -1px !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.company-label > div[class*="seller_verified_badge"] {
+    position: relative;
+}
+
+.company-label > div[class*="seller_"]:nth-child(3):before {
+    content: "";
+    position: absolute;
+    height: 76%;
+    width: 1px;
+    background-color: #000000;
+    left: -13px;
+    top: -2px;
+}
+
+.company-label > div[class*="seller_"]:nth-child(3):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 1px;
+    background-color: #000000;
+    left: -5px;
+    top: 6px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.company-label > div[class*="seller_"]:nth-child(4):before {
+    content: "";
+    position: absolute;
+    height: 85%;
+    width: 1px;
+    background-color: #000000;
+    left: -20px;
+    top: -8px;
+}
+
+.company-label > div[class*="seller_"]:nth-child(4):after {
+    content: "";
+    content: "";
+    position: absolute;
+    height: 85%;
+    width: 1px;
+    background-color: #000000;
+    left: -10px;
+    top: 1px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.company-label > div[class*="seller_"]:nth-child(5):before {
+    content: "";
+    position: absolute;
+    height: 85%;
+    width: 1px;
+    background-color: #000000;
+    left: -12px;
+    top: -9px;
+}
+
+.company-label > div[class*="seller_"]:nth-child(5):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 1px;
+    background-color: #000000;
+    left: -4px;
+    top: 3px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.company-label > div[class*="seller_"]:nth-child(6):before {
+    content: "";
+    position: absolute;
+    height: 85%;
+    width: 1px;
+    background-color: #000000;
+    left: -12px;
+    top: -10px;
+}
+
+.company-label > div[class*="seller_"]:nth-child(6):after {
+    content: "";
+    position: absolute;
+    height: 70%;
+    width: 1px;
+    background-color: #000000;
+    left: -4px;
+    top: 2px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.adv-search .list-check {
+    margin: 5px 0px !important;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 414px) {
+
+    .jobs_section_area .search_area {
+        height: 366px;
+    }
+
+    .inputfield_job {
+        min-width: 100%;
+
+    }
+
+    .inputfield_job form#search select[name="location"] {
+        margin-bottom: 15px;
+    }
+
+    .jobsection .search-list {
+        margin-top: 15px;
+    }
+
+    .company_details_jobs_details_description > span {
+        display: inline-block;
+        width: 100% !important;
+    }
+
+    .location-wrp {
+        margin-left: 120px !important;
+    }
+
+    .profilepagecompany > h2 {
+        position: relative;
+        top: 57px;
+    }
+
+    .cat-menu-wrp {
+        height: auto !important;
+        overflow-y: scroll;
+    }
+    .home-listing-wrp.home-list-box.job_profile_dashboard h2 {
+	top: 0;
+	}
+}
+.ftr-wrapper > .ftr-last {
+	padding-bottom: 15px !important;
+}
+ .location-wrp{
+ margin-left: 359px;
+ }
+ .home-listing-box.auction .company-label > div[class*="seller_verified_badge"] {
+    top: -50px;
+}
+.container_on_field {
+    position: absolute;
+}
+ @media only screen and (min-width:10px) and (max-width:667px){
+ .payment_left_side {
+ 	width: 100%;
+}
+.payment_right_side {
+	float: left;
+	width: 100%;
+}
+.my-listing-wrp {
+	float: left;
+}
+
+ .menu{z-index: 4999!important;}
+ .pp_expand {
+	display: none !important;
+}
+.profile-img-wrp .btn-black-small{
+
+bottom:-2px!important;
+}
+.phonenumberverification{
+position: relative;
+top: -17px;
+clear: both;
+right: -229px;
+}
+ }

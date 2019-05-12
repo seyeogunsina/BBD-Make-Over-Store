@@ -1,0 +1,1678 @@
+.phonenumberverification {
+    width: 100%;
+    margin-bottom: 7px !important;}
+
+.redeem {
+  
+    width: 80% !important;
+    text-align: center;
+}
+
+.logo-tagline {width: 100% !important;}
+/*.redeem {text-align: center;}*/
+.logo-tagline {
+        font-size: 10px !important;
+    }
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+* {
+    font-family: 'Lato';
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    /* Safari and Chrome */
+    /*.logo-tagline{
+     font-style: italic;
+	font-size: inherit;}*/
+    ::i-block-chrome, .listing-detail-right-title {
+        font-style: normal;
+    }
+
+    /* Safari only override */
+    ::i-block-chrome, .logo-tagline {
+        font-size: 10px !important;
+        font-style: normal;
+
+    }
+}
+
+* {
+    font-family: 'Lato' \0/;
+}
+
+.logo-tagline {
+    font-size: 10 px\0/ !important;
+
+}
+
+/*@media screen and (-ms-min-device-pixel-ratio:0) {
+
+}
+*/
+
+/*@media screen and (-webkit-min-width: 0px) and (-webkit-max-width: 1280px) {
+ body{font-family: lato,sans-serif !important;
+ 	font-size: 18px !important;}
+ }
+
+*/
+
+
+@media only screen and (max-width: 1920px) and (min-width: 800px) {
+    #nav-btn {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+    #nav-btn {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+
+    body.plugin {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        color: #000000;
+    }
+
+    .fb-plugin {
+        display: none;
+    }
+
+    #nav-btn {
+        border-bottom: 2px solid #fff;
+        border-top: 2px solid #fff;
+        color: white;
+        /*content: "Menu";*/
+        cursor: pointer;
+        display: block;
+        float: right;
+        font-size: 25px;
+        height: 17px;
+        position: relative;
+        right: 13px;
+        text-indent: -1 e+8px;
+        top: 8px;
+        width: 30px;
+        margin-bottom: 17px;
+    }
+
+    #nav-btn:after {
+        background: #fff none repeat scroll 0 0;
+        bottom: 8px;
+        content: "";
+        display: block;
+        height: 2px;
+        position: absolute;
+        width: 30px;
+    }
+
+    .list-check-title {
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .list-check select, .list-check.left {
+        width: 100%;
+    }
+
+    .select.default {
+        width: 100% !important;
+    }
+
+    .home-listing-title {
+        /*padding: 25px 20px 10px 12px;*/
+        padding: 0px 20px 10px 12px;
+        float: left !important;
+    }
+
+    .search-text {
+        padding-left: 11px;
+    }
+
+    .cat-list-wrp {
+        padding: 0px 0px 10px 11px;
+        width: 96%;
+    }
+
+    .new-listing-item-img {
+        bottom: 14px;
+        right: 8px;
+
+    }
+
+    .company-label, .seller-img img {
+        display: none;
+    }
+    .listing-item-price {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .list-text {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .location-wrp {
+        margin-left: 70px;
+    }
+
+    .listing-detail-right {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-left: 5px;
+    }
+
+    .typec .search_section {
+    }
+
+    .header {
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    .title-wrp {
+        width: 100%;
+        float: left;
+        background-color: #FFF;
+    }
+
+    .logo {
+        display: block;
+        float: left;
+        margin-left: 90px;
+    }
+
+    .bnr-wrp {
+        display: block;
+    }
+
+    .menu {
+        width: 100%;
+        float: left;
+        z-index: 99999;
+        position: relative;
+
+    }
+
+    .container {
+        width: 100%;
+        float: left;
+    }
+
+    .menu ul {
+        padding: 0px;
+        width: 100%;
+        background-color: black;
+        display: none;
+    }
+
+    .menu li {
+        display: block;
+        margin: 0px;
+    }
+
+    .menu li a {
+        display: block;
+        padding: 10px 9px;
+    }
+
+    .menu li a.highlighted {
+        background: #13CC00;
+        margin-left: 0px;
+        padding-left: 13px;
+        width: 93%;
+        color: #810C0C;
+    }
+
+    .right, .left {
+    }
+
+    .feature-wrp {
+        width: 100%;
+        float: left;
+        overflow-x: hidden;
+    }
+
+    .search_section {
+        width: 100%;
+    }
+
+    .search1 input[type="text"] {
+        width: 80%;
+    }
+
+    .ftr-wrapper {
+        width: 100%;
+        float: left;
+        padding: 4px;
+    }
+
+    #buttom-banner, #top-banner {
+        width: 95% !important;
+    }
+
+    /*top-banner top ads*/
+    div#top-banner > a > img {
+        width: 306px !important;
+    }
+
+    /*bottom-banner top ads*/
+    div#buttom-banner > a > img {
+        width: 318px !important;
+        height: auto;
+    }
+
+    .listing-details-left {
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .Sign-up.right {
+        /*display: none;*/
+        position: absolute;
+    }
+
+    .log-in.right {
+        /*display: none;*/
+        position: absolute;
+        left: 80px;
+    }
+
+    .hover-login {
+        position: absolute;
+        left: 1px;
+        margin-top: 12px;
+    }
+
+    div#top-banner > a > img, div#buttom-banner > a > img {
+        display: none;
+    }
+
+    .search-list {
+        /*padding-left: 9px;*/
+        /*float: left;*/
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .search-text {
+        line-height: normal;
+    }
+
+    form#search {
+        margin-top: -13px;
+        width: 100%;
+    }
+
+    .search-text1 {
+        padding-left: 0px;
+        line-height: 30px;
+        display: none;
+    }
+
+    .cat-list ul li, .see-more {
+        /*display: block;*/
+        display: none;
+    }
+
+    #counter {
+        display: none;
+    }
+
+    /*.prod-thumb {*/
+    /*width: 100%;*/
+    /*height: 136px;*/
+    /*margin: 5px;*/
+    /*}*/
+    .search1 {
+        margin-top: 15px;
+        width: 97%;
+        padding-left: 11px;
+    }
+
+    /*.home-listing .search1 {*/
+    /*margin: 0;*/
+    /*}*/
+    .listing-pages {
+        padding-top: 0px;
+    }
+
+    /*padding-right: 120px;*/
+    .register-step {
+        width: 244px;
+        margin: 0px;
+    }
+
+    select#cat-select {
+        /*width: 292px !important;*/
+    }
+
+    /* Individual Account register.php*/
+    .account-type-holder {
+        /*display: none;*/
+        margin-left: 9px;
+        width: 87%;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .sign-up-process {
+        margin-left: -0px;
+        padding-left: 20px;
+        width: 90%;
+    }
+
+    .signup-form1 {
+        padding-left: 13px !important;
+        margin-bottom: 10px;
+    }
+
+    .prev-next-wrp .btn-inverse {
+        margin-left: 10px !important;
+        width: 130px !important;
+    }
+
+    div#add_wrapper {
+        margin-left: 0px !important;
+    }
+
+    .account-features-list ul {
+        margin-left: -23px;
+        width: 100%;
+
+    }
+
+    .account-features-list ul li span {
+        width: 165px;
+    }
+
+    .jcarousel-skin-tango .jcarousel-container-horizontal {
+        width: 80% !important;
+        padding: 5px 48px 14px;
+        margin-left: -30px;
+    }
+
+    .jobs .jcarousel-prev-horizontal {
+        left: 29px;
+    }
+
+    .jobs .jcarousel-next-horizontal {
+        right: 0px;
+    }
+
+    .search_area {
+        background: green !important;
+        height: 333px;
+        width: 97% !important;
+        padding-left: 10px;
+    }
+
+    .jobs_section_area {
+        width: 100%;
+    }
+
+    .jobsection .home-list-box {
+        width: 100%;
+    }
+
+    .inputfield_job {
+        float: left;
+        margin-bottom: 6px;
+        width: 284px;
+    }
+
+    .inputfield_job input {
+        width: 253px;
+        margin-left: 17px;
+        margin-bottom: 10px;
+    }
+
+    .inputfield_job > span {
+        margin-left: 137px;
+    }
+
+    .jobsection .ads_job_area {
+        float: none;
+        width: 100%;
+    }
+
+    .category_lisiting_jobs ul li {
+        float: none;
+    }
+
+    /*jobsection table record*/
+    .jobsection .home-list-box {
+        overflow-x: scroll;
+        width: 90% !important;
+    }
+
+    /*end job section*/
+    .new_tab_right_jobs h2 {
+        padding: 11px 48px 14px 0px;
+    }
+
+    .featured_companies_listing > a > img {
+        width: 45%;
+        padding-right: 10px;
+    }
+
+    h2.home-listing-title.left {
+        padding-right: 0px !important;
+        line-height: 20px;
+        width: 98% !important;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .typec .search_section {
+        width: 100%;
+    }
+
+    .footer-nav-1 {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .footer-nav-2 {
+        float: none;
+    }
+
+    .copyright.right {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px; /* changed------------0 71px 1px*/
+
+    }
+
+    .copyright.left {
+        padding: 0px;
+        margin-top: 35px;
+        width: 100%;
+margin-bottom:15px;
+    }
+
+    ._c24._50f3 > p {
+        text-align: center;
+        width: 88%;
+        margin-bottom: 28px;
+        padding: 0px 13px;
+    }
+
+    .footer-nav-2.left > h2 {
+        line-height: 25px;
+    }
+
+    .footer-nav-3 {
+        width: 60%;
+        padding: 0px 67px;
+    }
+
+    .footer-nav-title {
+        text-align: center;
+    }
+
+    .below_head_border {
+        width: 100%;
+    }
+
+    .below_head_border1 {
+        width: 100%;
+    }
+
+    #buttom_banner_mode input[type="button"], #top_banner_mode input[type="button"] {
+        display: none;
+    }
+
+    a.search-text1.left.res-srch-adv {
+        display: block;
+        width: 100%;
+        margin-top: 3px;
+    }
+
+    /*Categories menu*/
+    .cat-menu-list {
+        width: 100%;
+    }
+
+    .cat-menu-wrp {
+        width: 301px;
+    }
+
+    .cat-menu-list ul {
+        display: block;
+    }
+
+    .cat-menu-list > ul > li > a {
+        line-height: 30px;
+    }
+
+    /*Categories menu*/
+    /*product detail page*/
+    .home-listing-detail .search1 input[type='text'] {
+        width: 255px;
+    }
+
+    .sub-wrp {
+        margin-left: 5px;
+    }
+
+    .car-large-desc.left {
+        margin-left: 0px !important;
+    }
+
+    .more-details table {
+        width: 95%;
+        overflow-x: scroll;
+    }
+
+    .more-details table {
+        width: 1000px;
+    }
+
+    .advert {
+        width: 93% !important;
+    }
+
+    .adinfo {
+        margin-top: 20px;
+    }
+
+    .ad-slider {
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .ad-slider-close {
+        top: 33px;
+    }
+
+    .ad-slider li {
+        width: 100%;
+    }
+
+    .more-from-seller {
+        width: 93% !important;
+    }
+
+    .more-details {
+        padding: 13px 7px 3px 8px;
+        width: 89%;
+        overflow-x: scroll;
+    }
+
+    .more-from-seller {
+        width: 93%;
+        margin-top: 2px;
+    }
+
+    .more-from-seller-item {
+        /*margin-left: 76px;*/
+        width: 90%;
+    }
+
+    .more-from-seller-title {
+        text-align: center;
+    }
+
+    .feature-listing .more-from-seller-item {
+        margin: 0px 0px;
+        width: 90%;
+    }
+
+    .home-list-box-detail {
+        display: block;
+        float: left;
+        width: 100%;
+        padding: 7px 6px 12px 5px;
+        margin-top: 10px;
+    }
+
+    .inquiry {
+        width: 87%;
+    }
+
+    .vehicle-details {
+        width: 95%;
+    }
+
+    p.detail-item-title.det-title {
+        padding-left: 7px;
+        text-align: left;
+    }
+
+    .wrapforprefference {
+        margin-left: 0px;
+    }
+
+    .soc-holder {
+        display: none;
+    }
+
+    .searching-bar {
+        width: 96%; /*if not try this :: with 96% */
+    }
+
+    .detail-search-bar {
+        padding: 3px 0px 0px;
+    }
+
+    /*product detail page*/
+    .footer-nav-2 ul li {
+        padding: 0px 0px 0px 82px;
+        text-align: center;
+    }
+
+    .cat-menu-wrp .cat-menu-list ul {
+        background: none;
+    }
+
+    .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width: 100%;
+    }
+
+    .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        left: 26px;
+    }
+
+    .footer-nav-2 {
+        width: 100%;
+    }
+
+    .copyright.left p, .copyright.right p {
+        text-align: center;
+    }
+
+    .search.left {
+        width: 100% !important;
+    }
+
+    .footleft {
+        /*margin-left: 15px;*/
+         /*-----------change-------------------------------------*/
+    }
+
+    /*after login page*/
+    .welcome-right {
+        width: 100%;
+    }
+
+    .welcome-right-user {
+        width: 100%;
+    }
+
+    .welcome-right-user .list-check {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .profile-img-wrp {
+        width: 96%;
+    }
+
+    .welcome-right {
+        width: 100%;
+    }
+
+    .paymentinfo {
+        /*margin-left: 0px;*/
+        width: 75%;
+        height: 220px;
+        background-size: contain;
+        margin: 0px auto;
+    }
+
+    .home-listing-wrp.home-list-box.jobs_listed_dashboard {
+        overflow-x: scroll !important;
+        width: 90% !important;
+    }
+
+    .home-listing-box.job_profile_page_company {
+        overflow-x: scroll !important;
+    }
+
+    div#compare_top {
+        position: absolute;
+        left: 155px;
+    }
+
+    /*end login page*/
+    .reveal-modal {
+        width: 100%;
+        /*display: none;*/
+        /*----------------------------------------------------------change-------------------------------------------------------*/
+        display: block !important;
+    }
+
+    h2.home-listing-title.left {
+        /*padding-left: 0px!important;*/
+        padding-left: 11px !important;
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+
+    .email-ver-left {
+        width: 95%;
+    }
+
+    /*.prod-thumb-listing {*/
+    /*width: 100%;*/
+    /*}*/
+    .email-ver-left {
+        margin-top: -20px;
+        margin-left: 0px;
+        width: 96%;
+
+    }
+
+    .new-welcome-right-user .profile-img-wrp {
+        width: 100%;
+    }
+
+    .my-listing-wrp .email-ver-left {
+        width: 100%;
+    }
+
+    .contain {
+        width: 100%;
+    }
+
+    .add-btn-form2 {
+        margin-left: 10px !important;
+    }
+
+    .multiselectoption select {
+        width: 100%;
+    }
+
+    .ui-buttonset .ui-button {
+        margin-bottom: 8px;
+        width: 278px;
+    }
+
+    #uploader {
+        width: 90%;
+    }
+
+    .listing-img {
+        width: 100%;
+    }
+
+    .listing-img .prod-thumb, .prod-thumb-listing {
+        height: 250px;
+        width: 99%;
+    }
+
+    .feature-ribbin {
+
+        position: absolute;
+        top: 0;
+        right: 8px;
+    }
+
+    .search-text.res-srch-text.left {
+        display: none;
+    }
+
+    .home-listing-box {
+        margin-bottom: 25px;
+        overflow: hidden;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-top: 16px;
+        position: relative;
+
+        /*position: relative;*/
+        /*overflow: hidden;*/
+        /*margin-bottom: 25px;*/
+    }
+
+    h3.left.compare-top-text a, div#compare_top img {
+        display: none;
+    }
+
+    form#search a {
+        display: none;
+    }
+
+    .widthfix-right {
+        width: 100%;
+    }
+
+    .left.widthfix-right, input#user-email, input#password {
+        width: 100%;
+    }
+
+    .login-popup .log-in-input-wrp select {
+        width: 195px;
+    }
+
+    .compare-top-text a {
+        margin-left: 45px;
+    }
+
+    .email-ver-title {
+        margin-left: 3px;
+        margin-bottom: 25px;
+    }
+
+    .passwordreset {
+        width: 283px;
+    }
+
+    .home-listing-wrp.signup-top-box {
+        display: none;
+    }
+
+    .profilepagecompany .company-page-right {
+        width: 100% !important;
+    }
+
+    ul.whoarewe {
+        width: 100%;
+    }
+
+    .etabs .tab.active, .etabs .tab {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    input#user-email {
+        width: 93%;
+    }
+
+    .tags_skills_area .tagsinput {
+        width: 96% !important;
+        margin-left: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .left.widthfix-right-form1, .checkboxesfooter_verification_details div {
+        width: 100%;
+    }
+
+    .company_details_jobs_details_description {
+        width: 85%;
+        margin-left: 0px;
+    }
+
+    span.company_name_detail_page {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .company_details_jobs_details_description span {
+        float: none;
+        width: 0px;
+    }
+
+    .application_process a {
+        display: block;
+        margin-bottom: 9px;
+        width: 100%;
+    }
+
+    .list-check .detail-item-title {
+        padding-left: 5px;
+        text-align: center;
+    }
+
+    select.default {
+        width: 100% !important;
+    }
+
+    .payment-wrp {
+        display: none;
+    }
+
+    /*position: absolute; left:-55px;*/
+    a.left.compare-top-text.red-font {
+        display: none;
+    }
+
+    .log-in.right i {
+        display: none;
+    }
+
+    .prod-thumb-more {
+        width: 100%;
+    }
+
+    .more-seller-price, .more-seller-place {
+        margin-bottom: 15px;
+    }
+
+    .more-seller-price {
+        font-size: 14px;
+        font-family: sans-serif;
+        text-align: center !important
+    }
+
+    .adinfo {
+        margin-top: 10px;
+    }
+
+    div {
+        /*border: 1px solid #3a945b;*/
+    }
+
+    .searching-bar select {
+        text-transform: uppercase;
+    }
+
+    .searching-bar .list-check .cat-select {
+        width: 100%;
+        text-transform: uppercase;
+    }
+
+    .hover-adv {
+        display: none;
+    }
+
+    /*check me  of http://buymandu.com/new/profile-jobs.php?id=37#tabs1-map text positon inside the box*/
+    .profilepagecompany h2 {
+        margin-left: 25px !important;
+        font-size: small;
+    }
+
+    .st_plusone_hcount {
+        display: none;
+    }
+
+    .social_sharing_jobs_detail {
+        margin-bottom: 10px;
+    }
+
+    .userdashboard .home-listing-wrp {
+        margin-top: 30px;
+        padding-right: 0px;
+    }
+
+    .footer-nav-2.left ul > li {
+        padding: 0px !important;
+
+        width: 100% !important;
+    }
+
+    .trust-seal {
+
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #comodoTL {
+        text-align: center !important;
+        padding-left: 0px !important;
+    }
+
+    .social {
+
+        width: 100% !important;
+        float: left;
+    }
+
+    .malware-seal {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .footer-nav-3 {
+        width: 100% !important;
+    }
+
+    .footleft {
+        margin-left: 0px !important;
+        margin: 0 auto !important;
+    }
+
+    .footer-nav-3 {
+        padding: 0px !important;
+    }
+
+    .logo-tagline.colorwhite {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    .social > a {
+
+        float: none !important;
+    }
+
+    .reveal-modal {
+        padding: 0px !important;
+    }
+
+    .userdashboard .detail-search-bar {
+        padding: 10px 0px !important;
+        margin-top: 10px;
+
+    }
+
+    /*#myModal-mess, .reveal-modal-bg, .reveal-moda{
+        width:80% !important; position: relative; top: 172px !important;
+    left: 80%}
+    */
+    /*.home-listing-wrp.home-list-box.home-list-box-email-ver, .userdashboard .detail-search-bar {
+        height: 145px !important;
+    }
+    */
+    /*.searching-bar.detail-search-bar {
+        height: 100px !important;
+    }
+
+    */
+    .reveal-modal-bg {
+        width: 100%
+    }
+
+    #myModal-mess {
+        top: 300px !important;
+    }
+
+    .reveal-modal {
+        margin-left: 20px !important;
+        left: 0px !important;
+        width: 90% !important;
+        top: 200px;
+    }
+
+    .welcome-left li {
+        padding: 8px 5px 10px !important;
+    }
+
+    .welcome-left > ul > li {
+        width: 46% !important;
+    }
+
+    .warning {
+        width: 91% !important;
+    }
+
+    .profile-img {
+        margin-right: 0px;
+        width: 99% !important;
+        text-align: center;
+    }
+
+    .btn-black-small {
+        margin-top: 0px !important;
+        left: 135px !important;
+        width: 23% !important;
+        text-align: center !important;
+        right: 0px !important;
+    }
+
+    .left.email-ver-btn-wrp > li {
+        width: 49% !important;
+        float: left;
+
+    }
+
+    .left.email-ver-btn-wrp > li > a {
+        width: 77%;
+        float: left;
+        text-align: center;
+    }
+
+    .copyright.right {
+
+        padding: 0px;
+        width: 100%;
+    }
+
+    .partners_logo_footer {
+        width: 100% !important;
+        margin-left: 0;
+        text-align: center;
+    }
+    .andriod_app{
+        display: inline-block;
+    }
+.copyright-center {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+text-align:center;
+}
+	.fb_likebtn{
+		margin-left: 0;
+    text-align: center;
+	}
+    .welcome-mylisting-wrp.left.profilepagedashboard.profileviewpageindashboard {
+        width: 100% !important;
+    }
+
+    .map_controller_area_frontend .form-group {
+        width: 100% !important;
+    }
+
+    #us3-address {
+        width: 100% !important;
+    }
+
+    .map_controller_area_frontend .m-t-small {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    #get-loc {
+        width: 96% !important;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .backend .form-control {
+        margin-right: 81px;
+        width: 400px;
+    }
+
+    #us3 {
+        width: 96% !important;
+    }
+
+    .addnewitem {
+
+        margin-right: 5px;
+    }
+
+    .addnewlisting {
+        /*width: 88%;*/
+        text-align: center;
+        margin-right: 10px;
+        /*margin: auto 15px 15px;*/
+    }
+
+    .whatispoints {
+        width: 100% !important;
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+
+    .hint--bottom::before, .hint--bottom::after {
+
+        left: 25% !important;
+    }
+
+    .hint--bottom::after {
+
+        width: 59%;
+    }
+
+    .makepaymentbtn {
+        margin-left: 0px !important;
+        text-align: center;
+    }
+
+    .emailo-ver-right li, .email-ver-left li {
+        padding: 0px !important;
+    }
+
+    .list-check.left > p:nth-child(3), .list-check.left > p:nth-child(4), .profileurlclass, .dashboardinfoarea .detail-item-title {
+        text-align: center !important;
+    }
+
+    .verfydashwrap {
+        float: none !important;
+    }
+
+    .verfydashwrap > a {
+        /*  float: none;*/
+        text-align: center;
+    }
+
+    .welcome-right > ul > li {
+        /*text-align: center !important;*/
+        /*width: 100% !important;*/
+    }
+
+    .finicial-dash {
+        margin-left: 0px;
+        width: 90% !important;
+    }
+
+    .finicial-wrp1, .finicial-wrp2 {
+        width: 49% !important;
+        text-align: center;
+    }
+
+    .finicial-wrp2 {
+        padding-left: 0px;
+    }
+
+    .detail-item-title-1 {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .detail-item-title {
+        text-align: center;
+    }
+
+    .pushingdualnotice {
+        margin: 5px auto 11px !important;
+        width: 70% !important;
+    }
+
+    .new-listing-type-left {
+        float: left !important;
+    }
+
+    .my-listing-wrp {
+        padding-bottom: 15px !important;
+    }
+
+    /*light box select component*/
+    .selectingfeatureditems select {
+        margin-left: 0px;
+        width: inherit;
+    }
+
+    .featured_designnow, .featured_designnow1, .availability_note h1, .featured_designnow2 {
+        width: inherit;
+    }
+
+    .timedetails_featured h1, .availability_note h1, .featured_note h1 {
+        margin-left: 0px !important;
+        font-size: 11px !important;
+    }
+
+    /*end component*/
+    .detail-item-title {
+        font-size: 9px;
+    }
+
+    .experience_apend_area {
+        padding-left: 20px ! important;
+        width: 89%;
+    }
+
+    .buyalert-box {
+        width: 71% !important;
+        margin: 13px auto;
+    }
+
+    .home-list-box {
+        padding: 19px 12px 49px;
+    }
+
+    .home-list-box-email-ver {
+        margin-top: 30px !important;
+    }
+
+    #addRow2 {
+        display: none; /*save and preview button */
+    }
+
+    .phonenumberverification{
+        float: none !important;
+    }
+
+    .redeem {
+    width: 100% !important;
+    text-align: center !important;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 414px) {
+
+	.logo.left {
+		width: 200px !important;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+
+	.home-listing-wrp.home-list-box.home-list-box-detail + div {
+	    float: left !important;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+    .copyright.left p, .copyright.right p {
+        font-size: 10px !important;
+    }
+
+    .btn-black-small {
+        left: 103px !important;
+    }
+
+    
+
+    .displaying.left {
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .displaying.right.navigation_info_right {
+        width: 100% !important;
+
+    }
+	
+	
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 360px) {
+    .btn-black-small {
+        left: 117px !important;
+    }
+
+    .new-listing-type-left > li {
+        font-size: 14px !important;
+    }
+.fb_likebtn{
+		
+	}
+	.partners_logo_footer{
+		margin-left:61px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+
+    .left.email-ver-btn-wrp {
+    width: 100% !important;
+    }
+    
+    .addnewlisting {
+    margin-right: 28px;
+    }
+
+    .paymentinfo {
+    width: 39%;
+    }
+
+    .prod-thumb {
+        margin: 0px 8px 2px 0px !important;
+    }
+
+    .partners_logo_footer {
+        margin-left: 280px;
+    }
+
+    .logo {
+
+        margin-left: 300px;
+    }
+
+    .top-details {
+
+        width: 95%;
+        padding: 10px;
+    }
+
+    .car-large-wrp {
+        float: none;
+    }
+
+    .inquiry {
+        width: 90% !important;
+    }
+
+    .more-details {
+
+        width: 91% !important;
+
+    }
+    .btn-black-small {
+  
+    left: 305px !important;
+    width: 12% !important;
+    }
+	.fb_likebtn{
+		margin-left:324px;
+	}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px){
+	div#featureLoader {
+	   
+	    left: 35% !important;
+	   
+	}
+
+	.page-nos li {
+	    margin-bottom: 10px;
+	    margin-right: 5px;
+	}
+	/*---start---*/
+	.jcarousel-skin-tango .jcarousel-container-horizontal {
+
+	    padding: 0;
+	    margin: 0px auto;
+	}
+	/*----end----*/
+
+	/*-start-*/
+	.jcarousel-skin-tango .jcarousel-prev-horizontal {
+		left: -26px;
+	}
+	/*-end-*/
+
+	/*-start-*/
+	.jcarousel-skin-tango .jcarousel-next-horizontal {
+		right: -25px;
+	}
+	/*-end-*/
+
+	/*-start-*/
+	.jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-left: 12px;
+	}
+	/*-end-*/
+
+
+	/*-start-*/
+	.search_section {
+
+		position: relative;
+	}
+	/*-end-*/
+
+	/*-start-*/
+	.search1 input[type="submit"] {
+		position: absolute;
+		right: 17px;
+	}
+	/*-end-*/
+
+	/*-start-*/
+		.ftr-wrapper {
+		padding: 15px 4px 4px 4px;
+	}
+	/*-end-*/
+}
+
+/*for desktop view*/
+
+.righthandfooter {
+    width: auto;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+	
+	left: -32px;
+	
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+	
+	right: -32px;
+	
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+
+	margin: 0 auto;
+}
+
+.feature-top-title {
+	
+	margin-left: 34px;
+	
+}
+
+.feature-wrp .container {
+  
+	/*overflow-y: unset; - not support in safari-*/
+	overflow-y: inherit;
+
+}
+@media screen and (max-width:767px){
+.home-listing-box {
+    width: 49%;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 2%;
+    min-height: 280px;
+        padding-bottom: 0;
+}
+.listing-detail-right.left {
+    display: none;
+}
+.home-listing-box:nth-child(2n+2) {
+    margin-right: 0;
+}
+.listing-img .prod-thumb, .prod-thumb-listing {
+    height: 250px;
+    width: 99%;
+    max-height: 150px;
+}
+.location-wrp.left {
+    margin: 0 !important;
+}
+.displaying.left{
+display: block;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.location-icon {
+    display: inline-block;
+    margin: 0 !important;
+}
+.listing-item-title {
+        line-height: 19px;
+    /* min-height: 40px; */
+font-size:17px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 99%;
+    overflow: hidden;
+}
+.fb_likebtn > div, .fb_likebtn > iframe {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.below_head_border + p {
+    padding: 0 50px;
+    text-align: center;
+}
+.fb_likebtn{
+float:none !important}
+.fb_likebtn > div, .fb_likebtn > iframe {
+    display: block !important;
+    margin: 2px auto !important;
+    text-align: center !important;
+    margin-bottom: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative !important;
+    max-width: 100% !important;
+    /* width: 100% !important; */
+    float: none !important;
+    clear: both;
+}
+.location-icon a {
+        color: #006fba;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    width: 118px;
+    overflow: hidden;
+}
+div#___plus_0 >iframe {
+    width: 60px !important;
+    text-align: center;
+    position: relative !IMPORTANT;
+}
+span.navigation_info{
+text-align:center;}
+.displaying.right.navigation_info_right {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    display: inline-block;
+width:100%;
+}
+.displaying.right.navigation_info_right ul {
+    display: inline-block;
+}
+.home-listing-wrp.home-list-box{
+display: flex;
+  flex-wrap: wrap;
+}
+}
+/*end desktop*/
+@media screen and (min-width:1080px){
+.home-listing-box {
+    padding: 2px 8px 0px 2px;
+    max-height: 164px;
+    clear: both;
+}
+}
+/*remove gaps*/
+.company-label {
+    max-height: 45px;
+
+}
+div#buy-safe img:hover {
+    transform: scale(1.4);
+    /* z-index: 999 !important; */
+    
+    right: 20px !important;
+    left: initial;
+}
+
+div#buy-safe img {
+    z-index: 9999999;
+    position: relative;
+transition: ease-in-out .3s;
+}
+#buy-safe {
+    position: fixed;
+    right: 0;
+    top: 460px;
+    text-align: right;
+    z-index: 999;
+}
+div#buy-safe.inner{
+top:160px;}

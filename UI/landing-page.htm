@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="landing-page.css"/>
+    <base href="https://www.naijakobomarket.com/" >
+    <link rel="shortcut icon" href="images/logo/favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="" rel="stylesheet" type="text/css" />
+
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/basic.css" type="text/css" />
+    <link rel="stylesheet" href="css/alertify.min.css" type="text/css" />
+    <link href="https://www.naijakobomarket.com/css/jquery-ui.css"  rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/reject.js"></script>
+    <link href="prettyPhoto/prettyPhoto.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="prettyPhoto/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.chained.min.js"></script>
+    <script type="text/javascript" src="js/jquery.vticker.js"></script>
+    <script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+    <script type="text/javascript" src="js/jquery.reveal.js"></script>
+    <script type="text/javascript" src="js/alertify.min.js"></script>
+    <script type="text/javascript" src="js/jquery.adaptive-backgrounds.js"></script>
+    <script src="https://www.naijakobomarket.com/js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/reveal.css">
+    <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="skins/tango/skin.css" />
+    <link rel="stylesheet" type="text/css" href="ajax_uploader/classicTheme/style.css" />
+    <script type="text/javascript" src="js/modernizr-custom.js"></script>
+     <script type="text/javascript" src="js/sticky-kit.js"></script>
+    <script type="text/javascript" src="js/exif.js"></script>
+    <script type="text/javascript">
+        var url = String(window.location);
+        url = url.split("?")[0];
+        var urlAry = url.split("/");
+        var page = urlAry[urlAry.length - 1];
+        if (page == "") {
+            $("#user_nav a:first").addClass('active');
+        }
+        else {
+            $('a[href="' + page + '"]').addClass('active');
+        }
+    </script>
+    <script type="text/javascript">
+        //<![CDATA[
+        var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.comodo.com/" : "http://www.trustlogo.com/");
+        document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+        //]]> </script>
+    <script type="text/javascript" src="js/flipcounter.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/counter.css" />
+    <style>
+        .location-icon {
+            display: inline-block;
+        }
+        .arrow .ui-tooltip-content {
+            color: #fff;
+        }
+        .ui-tooltip.arrow {
+            padding: 4px 8px;
+        }
+        .ui-widget-content.arrow {
+            background: #484848;
+        }
+        img.spin {
+
+            max-width: 30px;
+            height: auto;
+            opacity:0;
+            -moz-animation: spin  1.4s  linear  0.5s  infinite;
+            -webkit-animation: spin  1.4s  linear  0.5s  infinite;
+            -o-animation: spin  1.4s  linear  0.5s  infinite;
+            animation: spin  1.4s  linear  0.5s  infinite;
+            -moz-transition:ease-in-out 0.3s;
+            -webkit-transition:ease-in-out 0.3s;
+            -o-transition:ease-in-out 0.3s;
+            transition:ease-in-out 0.3s;
+
+        }
+        .log-in.right:hover img.spin{ opacity:1}
+
+        @-webkit-keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+        @-moz-keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+        @-o-keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+        @keyframes spin{
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+    </style>
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive/buymandu.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nigeria's Largest Marketplace & Jobs Portal">
+    <meta name="keywords" content="Naija Kobo Market,Marketplace,Jobs Portal">
+    <meta name="author" content="naijakobomarket.com">
+    <meta property="og:site_name" content="https://www.naijakobomarket.com/"/>
+    <meta property="og:type" content="product"/>
+    <meta property="og:url" content="https://www.naijakobomarket.com/" />
+    <meta property="og:title" content="Naija Kobo Market - Nigeria's Largest Marketplace & Jobs Portal" />
+    <meta property="og:description" content="Nigeria's Largest Marketplace & Jobs Portal" />
+    <meta property="og:image" content="https://www.naijakobomarket.com/images/logo/bloglogo.png" />
+    <meta property="fb:app_id" content="562519097274288" />
+    <meta property="fb:admins" content="1544859633" />
+    <meta property="twitter:card" content="summery" />
+    <meta property="twitter:site" content="https://www.naijakobomarket.com/" />
+    <meta property="twitter:title" content="Naija Kobo Market - Nigeria's Largest Marketplace & Jobs Portal" />
+    <meta property="twitter:description" content="Nigeria's Largest Marketplace & Jobs Portal" />
+    <meta property="twitter:image" content="https://www.naijakobomarket.com/images/logo/bloglogo.png" />
+    <meta property="twitter:url" content="https://www.naijakobomarket.com/" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86709437-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-86709437-1');
+</script>
+</head>
+<body>
+    <section class="home-listing">
+        <div class="container">
+            <div class="search-list">
+                <h2 class="home-listing-title left">Listings</h2>
+                <div class="search_section">
+                    <div class="search left">
+                        <p class="search-text res-srch-text left">Search products</p>
+                    </div>
+                    <form class="forinner" action="https://seyeogunsina.github.io/BBD-Make-Over-Store/" method="POST" id="search" _1pchecked="1">
+                        <input type="hidden" name="adv-srch" value="yes">
+                        <div class="search1 left">
+                            <input type="text" id="searchP" name="search" placeholder="e.g. Macbook Pro" value class="left input-gap res-srch-inp">
+                            <input type="submit" value class="left res-srch-btn"/>
+                            <div class="clear"></div>
+                        </div>
+                        <a href="#" class="search-text1 left res-srch-adv">Advanced search</a>
+                    </form>
+                </div>
+                <div class="clear"></div>
+                <!-- Adv Search-->
+                <div class="adv-search container">
+                    <div class="underline"></div>
+                    <div class="list-check left">
+                        <p class="left list-check-title">Category</p>
+                        <select name="category" id="cat-select-search" class="default cat-select" tabindex="2">
+                            <option value>Any</option>
+                            <option value="powders">Powders</option>
+                            <option value="foundations">Foundation</option>
+                            <option value="eye-liners">Eye Liner</option>
+                            <option value="nail-paints">Nail Paints</option>
+                        </select>
+                    </div>
+                    <div class="list-check left">
+                        <p class="left list-check-title">Location</p>
+                        <select name="state" id="stt-select-search" class="default cat-select" tabindex="2">
+                            <option value>State</option>
+                            <option value="1">FCT</option>
+                            <option value="2">Lagos</option>
+                            <option value="3">Rivers</option>
+                        </select>
+                        <select name="location" id="loc-select-search" class="default cat-select">
+                            <option value>Select a state</Select></option>
+                        </select>
+                    </div>
+                    <div class="list-check left">
+                        <p class="left list-check-title">Price</p>
+                        <select name="pricemin" id="pricemin" 
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
